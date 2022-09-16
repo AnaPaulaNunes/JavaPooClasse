@@ -13,5 +13,11 @@ public class Cavalo extends Animal {
 	public void imprimir() {
 		System.out.println("\nNome do cavalo: "+getNome()+"\nIdade: "+getIdade()+" anos"+
 	"\nSom emitido: "+getSom());
+		
+	}
+	
+	@Override
+	public void barulho(String barulho) {
+		System.out.println("IIIIRRRIIIIII....");
 	}
 }

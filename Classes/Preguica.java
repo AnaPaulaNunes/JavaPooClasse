@@ -15,6 +15,12 @@ public class Preguica extends Animal {
 	public void imprimir() {
 		System.out.println("\nNome da preguiça: "+getNome()+"\nIdade: "+getIdade()+" anos"+
 	"\nSom emitido: "+getSom());
+		
+	}
+	
+	@Override
+	public void barulho(String barulho) {
+		System.out.println("IIIIHHHHH....");
 	}
 
 }

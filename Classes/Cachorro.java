@@ -15,5 +15,10 @@ public class Cachorro extends Animal {
 	"\nSom emitido: "+getSom());
 		
 	}
+	
+	@Override
+	public void barulho(String barulho) {
+		System.out.println("AU, AU, AAAUUU....");
+	}
 
 }

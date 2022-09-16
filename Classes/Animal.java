@@ -1,10 +1,13 @@
 package POO.Classes;
 
-public class Animal {
+public abstract class Animal {
 	
 	private String nome;
 	private String som;
 	private int idade;
+	
+	abstract public void barulho (String barulho);
+	
 	
 	public Animal (String nome, String som, int idade) {
 		this.nome = nome;
